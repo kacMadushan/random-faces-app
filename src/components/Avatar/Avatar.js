@@ -10,7 +10,7 @@ const Avatar = ({ url, alt, modifiers }) => {
 };
 
 Avatar.propTypes = {
-  modifiers: PropTypes.string,
+  modifiers: PropTypes.array,
   url: PropTypes.string.isRequired,
   alt: PropTypes.string
 };

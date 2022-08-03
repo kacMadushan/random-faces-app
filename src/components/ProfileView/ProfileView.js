@@ -45,7 +45,7 @@ const ProfileView = ({ picture, name, location, phone, email }) => {
 };
 
 ProfileView.propTypes = {
-  picture: PropTypes.string.isRequired,
+  picture: PropTypes.object.isRequired,
   name: PropTypes.object.isRequired,
   email: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
